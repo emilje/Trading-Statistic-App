@@ -1,0 +1,178 @@
+body {
+    font-size: 100%;
+    font-family: Verdana, sans-serif;
+    background: linear-gradient(180deg, rgba(244,250,255,1) 0%, rgba(190,223,255,1) 48%, rgba(244,250,255,1) 100%);
+    min-height: 100%;
+    background-repeat:repeat;
+}
+
+input {
+    
+    height: 20px;
+    width: 60px;
+    text-align: center;
+    margin: 0.68vh;
+   
+}
+
+p{
+    margin:2vh;
+       
+}
+
+.calcButton {
+    position:absolute;
+    transform: translate(0%,450%);
+    border-style:none;
+    border-color: crimson;
+}
+
+
+.entireApp {
+    
+   display:flex;
+    justify-content: center;
+    position: relative;
+    border-style:none;
+    border-color: rgb(255, 0, 200);
+}
+
+.container {
+    float:left;
+    border-style:solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.226);
+    
+    
+}
+.containerUnits {
+    
+    float:left;
+    border-style:solid;
+    opacity: 100%;
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0.226);
+    
+    
+}
+
+.SpanProfit {
+    position: relative;
+    color: white;
+
+  }
+  
+  .SpanProfit::after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    transform: scale(1.1, 1.5) skewX(-15deg);
+    background-image:linear-gradient(to top left, #39b385, #9be15d);
+   
+  }
+
+  .SpanRisk {
+    position: relative;
+    color:rgb(255, 255, 255);
+  
+  }
+  
+  .SpanRisk::after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    transform: scale(1.1, 1.5) skewX(-15deg);
+    background-image:linear-gradient(to top left, rgb(250, 129, 59) 0%, rgb(255, 0, 0) 100%);
+  }
+
+
+.btn--calc {
+    
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border-style: solid;
+    opacity: 100%;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 20px 30px;
+    color: #fff;
+    transition:all;
+    background-image:linear-gradient(to top left, #38a57b, #82bb50);
+    height: 48px;
+    transition: all 0.2s;
+    
+}
+
+.btn--calc:hover{
+    transition: all 0.2s;
+    box-shadow: 0px 0px 8px #000000;
+    background-image:linear-gradient(to top left, #39b385, #9be15d);
+}
+
+.btn--calc:active{
+   
+    background-image:linear-gradient(to top left, #1c8621, #9be15d);
+}
+
+.Message {
+    background-image:linear-gradient(to top, #ffffffb2, #ffffff00);
+    position:absolute;
+    text-align: center;
+    top: 150%;
+    width: 500px;
+    max-width: 700px;
+    opacity: 100%;
+    transition: opacity 2s;
+    border-style: none;
+    z-index: -10;
+    font-size: 20px;
+    border-radius: 20px;
+    color: rgb(54, 54, 54);
+}
+
+
+.hidden {
+    opacity: 0;
+    transition: opacity 1s;
+    
+}
+
+.ArrayOfCapital {
+    text-align: center;
+    border-style: none;
+    position: relative;
+    left: 34%;
+    top: 30vh;
+    width:30vw;;
+    height: 5000px;
+    font-weight:normal;
+    z-index: -10;
+      line-height: 30px;
+    filter: drop-shadow(0px 0px 20px);
+    opacity: 100%;
+    transition: opacity 2s;
+}
+

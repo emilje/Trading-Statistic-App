@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="entireApp">
+        <div class="container">
+            <p>Starting capital: </p>
+            <p><span class="SpanRisk">Risk</span> per trade: </p>
+
+            <p><span class="SpanProfit">Profit</span> per trade: </p>
+
+            <p>Winning ratio: 1 / </p>
+            <p>Number of trades: </p>
+        </div>
+        <div class="containerUnits">
+            <input class="input Capital" type="number">.<br>
+            <input class="input Risk" type="number" min="0">%.<br>
+            <input class="input Profit" type="number">%.<br>
+            <input class="input Odds" type="number">.<br>
+            <input class="input Trades" type="number">.<br>
+
+        </div>
+        <div class="calcButton">
+            <button class="btn--calc">Calculate</button>
+        </div>
+        <div class="Message hidden">
+            <p>Hey!</p>
+        </div>
+    </div>
+    <div class="ArrayOfCapital "> </div>
+
+</body>
+
+</html>
