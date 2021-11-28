@@ -2,4 +2,4 @@
 A very basic trading statistic calculator.
 
 
-(https://raw.githubusercontent.com/emilje/Trading-Statistic-App/main/appOverview.png)
+![Pic](https://raw.githubusercontent.com/emilje/Trading-Statistic-App/main/appOverview.png)
